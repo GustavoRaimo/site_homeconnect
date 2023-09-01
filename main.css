@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input, textarea{
+    font-family: 'Raleway', sans-serif;
+}
+
+header h1{
+    font-weight: 500;
+}
+
+section{
+    color: #ffffff;
+}
+
+section h2{
+    font-weight: 800;
+}
+header,
+section h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+header{  
+    padding: 16px 0;
+    background-color: #760dd87a ;
+    color: #a1b2eb;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px ;
+}
+
+header nav a{
+    color: #96a5d6;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+.brands-list img{
+    height: 65px;
+}
+
+.brands-list li{
+    display: inline;
+
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+section ul img{
+    margin-right: 16px;
+}
+
+
+.store-image{
+    margin-right: 16px;
+    max-width: 500px;
+    border-radius: 20% 0 20%;
+}
+
+.social-link img{
+    height: 24px;
+}
+
+.social-link li{
+    display: inline;
+    margin-right: 8px;
+
+}
+
+.social-link a{
+    text-decoration: none;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-method{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: #760dd87a;
+    color: #f7f6f6;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #760dd8a9;
+    color: #f7f6f6;
+}
+
+input:focus , textarea:focus{
+    outline: #182c61;
+}
+
+footer{
+    background-color: #760dd8a9;
+    color: #a1b2eb;
+    padding: 16px 0;
+}
+
+body {
+    background-image: url("./images/background.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
